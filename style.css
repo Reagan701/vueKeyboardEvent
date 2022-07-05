@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+body{
+    background:linear-gradient(rgba(255, 166, 0, 0.9),rgba(255, 166, 58, 0.9));
+}
+
+h1{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#App{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#input{
+    width: 400px;
+    height: 50px;
+}
